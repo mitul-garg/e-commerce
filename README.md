@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# E-Commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully-functional E-Commerce website with the ability to receive payments and place orders using Commerce JS and Stripe.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Website is a <strong>Single Page Application</strong> providing E-Commerce functionalities using [Commerce JS](https://commercejs.com/) along with a simple UI built with [Material UI](https://mui.com/). The app is capable of viewing products, adding them to the cart, editing the cart, placing an order along with payment confirmation. The app is also ready to be integrated completely with [Stripe](https://stripe.com/) for receiving real-time payments and confirmation emails. The project helped me to use APIs in a better way, even with dynamically updating various components.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- <strong>React.js</strong>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - Conditional Fetching of Countries and Subdivisions
+  - Custom Components for Inputs and Cards.
+  - [react-router-dom](https://reactrouter.com/) for routing between cart, checkout, etc.
+  - [react-hook-form](https://react-hook-form.com/) for handling various forms like Address Form, Payment Form, etc.
 
-### `npm test`
+- <strong>Material UI</strong>
+- <strong>Commerce JS</strong>
+  - Handling Cart, Products, Orders, etc.
+  - Shipping Countries, Subdivisions, Pricing, etc.
+- <strong>Stripe</strong>
+  - For Payment Gateway
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<strong>[View Project!](https://mg-ecommerce.netlify.app/)</strong>
